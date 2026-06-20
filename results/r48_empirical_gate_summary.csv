@@ -1,0 +1,7 @@
+gate,status,primary_result,claim_use
+unit_boundary,executed,702 model-grid rows; 351 grids; 5 event-AOI units,capped sidecar evidence; not final full-corpus proof
+full_outcome_signal_memory_extension,executed,14206 model-grid rows; 7103 grids; F1 switches=0; FP switches=0,full staged outcome extension for signal-memory consequences only
+global_decision,executed,pooled F1 winner=r20; low FP-rate winner=r19,baseline decision before mechanism stratification
+regime_decision_consequence,executed,F1 switches=0; FP switches=0,"supports objective-dependent decision-cost surface, not F1 rank flip"
+hydrologic_negative_control,executed,r19 FP-rate ratio=0.052; r20 FP-rate ratio=0.062,tests whether false positives concentrate in hydrologically implausible low-signal cells
+observation_ambiguity_interaction,executed,12 high-vs-low ambiguity contrasts,tests whether observation ambiguity modifies model consequences inside signal-memory cells

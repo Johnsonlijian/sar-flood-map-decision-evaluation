@@ -1,0 +1,8 @@
+dataset_or_source,role_in_manuscript,source_url,identifier,redistribution_boundary,package_status
+Sen1Floods11,Source training dataset for fixed flood-map decisions,https://github.com/cloudtostreet/Sen1Floods11,doi:10.1109/CVPRW50498.2020.00113,Raw data not redistributed in submission package,Active cited source; metadata only
+Kuro Siwo,External transfer-evaluation support,https://neurips.cc/virtual/2024/poster/97442,doi:10.52202/079017-1204,Raw archives not redistributed; incomplete batches excluded from evidence,Active cited source; verified local derived support only
+JRC Global Surface Water,Official water-memory control,https://global-surface-water.appspot.com/,doi:10.1038/nature20584,Raw rasters not redistributed,Active cited control source; derived strata only
+ESA WorldCover,Land-cover control,https://esa-worldcover.org/,official product page,Raw rasters not redistributed,Control metadata; source link only
+CHIRPS,Rainfall-context control,https://www.chc.ucsb.edu/data/chirps,official product page,Raw rasters not redistributed,Control metadata; source link only
+HydroRIVERS / HydroSHEDS,Hydrography and distance-to-river control,https://www.hydrosheds.org/products/hydrorivers,official product page,Raw vectors not redistributed,Control metadata; source link only
+Copernicus Sentinel-1 catalogue metadata,SAR acquisition/timing/pass-direction boundary diagnostics,https://dataspace.copernicus.eu/,official catalogue,Raw scenes and credentials not redistributed,Metadata/control boundary only

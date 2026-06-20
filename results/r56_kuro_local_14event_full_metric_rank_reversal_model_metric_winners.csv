@@ -1,0 +1,12 @@
+metric,r19,r20,r20_minus_r19,winner,higher_is_better,interpretation
+pooled_f1,0.5815396741136193,0.45724315771009666,-0.12429651640352263,r19,True,Benchmark-style aggregate over all event pixels
+event_median_f1,0.4382605244997868,0.6010175276921739,0.16275700319238706,r20,True,Median event-level F1; each event has equal weight
+event_q10_f1,0.03650695823937654,0.08772774387061472,0.05122078563123818,r20,True,Lower-tail event reliability
+event_min_f1,0.002055716268769008,0.03274679442091168,0.030691078152142677,r20,True,Worst observed event
+pass_rate_f1_ge_050,0.35714285714285715,0.5714285714285714,0.21428571428571425,r20,True,Fraction of events reaching F1 >= 0.50
+pass_rate_f1_ge_060,0.2857142857142857,0.5,0.2142857142857143,r20,True,Fraction of events reaching F1 >= 0.60
+pass_rate_f1_ge_070,0.07142857142857142,0.14285714285714285,0.07142857142857142,r20,True,Fraction of events reaching F1 >= 0.70
+pooled_precision,0.6136817063707686,0.3008703550674763,-0.3128113513032923,r19,True,Aggregate precision
+pooled_recall,0.5525969985100809,0.9520639547438206,0.3994669562337396,r20,True,Aggregate recall
+false_positives,70181236.0,446328723.0,376147487.0,r19,False,Aggregate false-positive pixels; lower is better
+false_negatives,90262901.0,9671027.0,-80591874.0,r20,False,Aggregate false-negative pixels; lower is better

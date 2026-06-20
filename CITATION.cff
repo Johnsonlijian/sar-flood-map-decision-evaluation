@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript."
+title: "SAR Flood-Map Decision-Aware Evaluation"
+type: software
+authors:
+  - name: "Manuscript authors"
+repository-code: "https://github.com/Johnsonlijian/sar-flood-map-decision-evaluation"
+date-released: "2026-06-20"
+license: "MIT"
+abstract: "Public derived tables, figures, audits, and validation scripts for a decision-aware evaluation framework for SAR flood-map skill."

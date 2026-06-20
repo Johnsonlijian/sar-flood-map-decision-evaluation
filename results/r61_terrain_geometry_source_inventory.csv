@@ -1,0 +1,5 @@
+source_layer,coverage,role,boundary
+Kuro MK0_DEM tiles,"43,236/43,236 grids",local topographic plausibility and negative-control proxy,Dataset-provided DEM tile; not an official HAND or hydrodynamic surface.
+Kuro MK0_SLOPE tiles,"43,236/43,236 grids",local terrain roughness / flood-plausibility modifier,Used as relative roughness; units and derivation are dataset-provided and not re-derived.
+Kuro info.json + catalogue.gpkg,"43,236 local grids; one catalogue layer","SAR date, source-count, coverage and metadata-boundary audit",No local platform/orbit/pass/incidence/look-direction fields.
+R58 official-control joined table,"43,236 grids; 86,472 model-grid rows after R19/R20 join",joins terrain controls to existing water/rainfall/land/hydro/SAR-timing modifiers,"Observational modifier layer, not a full causal hydrodynamic model."

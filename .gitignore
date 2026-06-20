@@ -1,0 +1,37 @@
+# Local/runtime artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Private or non-redistributable material
+data_raw/
+data_external/
+raw/
+archives/
+models/
+checkpoints/
+manuscript/
+submission_clean/
+cover_letter/
+rounds/
+logs/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+
+# Credentials and local environments
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.sqlite
+*.db
+.venv/
+venv/
+env/
+

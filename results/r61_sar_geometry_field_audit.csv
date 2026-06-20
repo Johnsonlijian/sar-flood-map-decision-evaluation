@@ -1,0 +1,12 @@
+geometry_concept,field_or_token,local_status,local_evidence,manuscript_action
+source UUID,s1_ids,present,"Source identity token can be counted and tied to dates/coverage, but is not a Sentinel-1 product name.",use as control
+source date,source_date,present,Acquisition timing is available and already used as SAR timing control.,use as control
+coverage,coverage/pcovered,present,Grid coverage is available and already used as SAR coverage/availability control.,use as control
+polarization channel,IVV/IVH file names,present_partial,VV/VH-like channel names are present in tile filenames; no original SAFE metadata is present.,use as control
+platform,S1A/S1B,absent,No platform or SAFE product identifier is present locally.,keep as explicit boundary
+relative orbit,relativeOrbitNumber/orbit,absent,No relative orbit field is present locally.,keep as explicit boundary
+pass direction,ASCENDING/DESCENDING,absent,No orbit/pass direction field is present locally.,keep as explicit boundary
+incidence angle,incidenceAngle,absent,No incidence-angle grid or scene-level value is present locally.,keep as explicit boundary
+look direction,lookDirection,absent,No look direction field is present locally.,keep as explicit boundary
+catalogue layer fields,grid_id; slavecov; mastercov; gvalid; pcovered; pwater; pflood; actid; flood_date; aoiid; revision; version; source_date; s1_ids; master; coverage; crank; exported; shuffle,documented,"pyogrio layers=[['catalogue', 'Polygon']]",source audit support
+info.json keys,"top=['sources', 'datasets', 'grid_id', 'slavecov', 'mastercov', 'gvalid', 'pcovered', 'pwater', 'pflood', 'actid', 'flood_date', 'aoiid', 'revision', 'version', 'geom']; source=['coverage', 'crank', 'master', 's1_ids', 'source_date']; dataset=['dtype', 'master', 'name', 'nodata', 'pname', 'ptype', 'rank', 'source_date', 'sources']",documented,<KuroSiwo raw root>\1111006\00\67\6728743e2863539da51db43c6cfccbbb\info.json,source audit support

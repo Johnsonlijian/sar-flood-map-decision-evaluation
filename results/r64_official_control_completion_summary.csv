@@ -1,0 +1,9 @@
+family,source,key_fields,rows_with_control,total_grids,coverage_fraction,status,claim_role
+official_water_memory,JRC Global Surface Water v1.4 2021 occurrence/seasonality,jrc_occurrence_mean; jrc_seasonality_mean_months; jrc_permanent_water_fraction,40670,43236,0.9406513090942733,complete_with_known_tile_gap,external water-memory modifier
+official_rainfall,CHIRPS v2.0 daily precipitation p05,chirps_event_day_mm; chirps_antecedent_3d_mm; chirps_antecedent_7d_mm; chirps_event_window_3d_mm,43236,43236,1.0,complete,event and antecedent rainfall modifier
+official_land_cover,ESA WorldCover 2021 v200,worldcover_dominant_class; class fractions; land_background_bin,43236,43236,1.0,complete,land/background scattering and ambiguity modifier
+official_hydrography,HydroSHEDS HydroRIVERS v1.0,hydrorivers_nearest_distance_m; hydrorivers_nearest_ord_flow; hydrorivers_nearest_upland_skm,39463,43236,0.912734758071977,complete_with_known_sparse_gap,"river-network proximity modifier, not discharge or HAND"
+source_sar_timing_coverage,Kuro Siwo info.json/catalogue.gpkg,sar_flood_to_ms1_days; sar_pre_pair_gap_days; sar_*_coverage; sar_source_id_count,43236,43236,1.0,complete_for_local_metadata,acquisition timing and coverage modifier
+local_terrain,Kuro MK0_DEM and MK0_SLOPE tiles,dem_*; slope_*; terrain_within_unit_bin,43236,43236,1.0,complete_local,terrain roughness modifier and hydrologic-boundary proxy
+true_sentinel1_geometry_boundary,Local Kuro metadata audit,platform; relative orbit; pass direction; incidence angle; look direction,0,43236,0.0,not_available_locally,explicit SAR-physics boundary: platform; relative orbit; pass direction; incidence angle; look direction
+control_source_download_manifest,R58 source manifest,JRC; WorldCover; CHIRPS; HydroRIVERS files,166,166,1.0,no_failed_control_sources,source-provenance and reproducibility check

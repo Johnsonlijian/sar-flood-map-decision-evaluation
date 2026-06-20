@@ -1,0 +1,22 @@
+metric,value,interpretation
+control_bins_evaluated,83,"official, joint and SAR-catalogue regimes recomputed on the same evaluated support"
+r20_f1_winner_bins,43,recall-heavy ASPP wins F1 in these regimes
+r19_f1_winner_bins,40,false-positive-restrained UNet wins F1 in these regimes
+r19_low_fp_winner_bins,83,UNet remains the low-false-positive decision in these regimes
+f1_decision_switch_bins,43,regimes where F1 winner differs from the global winner
+strong_positive_lambda_1,joint_land_memory:water_wetland__dry_or_trace,lambda_star=29.2; r20_minus_r19_f1=0.411; r20_minus_r19_fp_rate=0.0141
+strong_positive_lambda_2,sar_catalogue_swath:iw_plus_other_swath_candidates,lambda_star=24.9; r20_minus_r19_f1=0.618; r20_minus_r19_fp_rate=0.0248
+strong_positive_lambda_3,joint_land_memory:built_up__dry_or_trace,lambda_star=8.12; r20_minus_r19_f1=0.129; r20_minus_r19_fp_rate=0.0159
+strong_positive_lambda_4,joint_sar_pass_timing:mixed_or_ambiguous_pass_candidates__same_day,lambda_star=7.46; r20_minus_r19_f1=0.392; r20_minus_r19_fp_rate=0.0526
+strong_positive_lambda_5,sar_catalogue_relative_orbit:mixed_or_ambiguous_relative_orbit_candidates,lambda_star=7.46; r20_minus_r19_f1=0.392; r20_minus_r19_fp_rate=0.0526
+strong_positive_lambda_6,sar_catalogue_pass_direction:mixed_or_ambiguous_pass_candidates,lambda_star=7.46; r20_minus_r19_f1=0.392; r20_minus_r19_fp_rate=0.0526
+strong_positive_lambda_7,joint_rain_memory:high__dry_or_trace,lambda_star=6.11; r20_minus_r19_f1=0.217; r20_minus_r19_fp_rate=0.0355
+strong_positive_lambda_8,joint_sar_pass_timing:all_descending__gt10d,lambda_star=5.69; r20_minus_r19_f1=0.272; r20_minus_r19_fp_rate=0.0479
+strong_negative_lambda_1,joint_hydro_memory:missing_hydrorivers__dry_or_trace,lambda_star=-2.65; r20_minus_r19_f1=-0.18; r20_minus_r19_fp_rate=0.0678
+strong_negative_lambda_2,joint_sar_pass_timing:all_ascending__same_day,lambda_star=-1.57; r20_minus_r19_f1=-0.157; r20_minus_r19_fp_rate=0.1
+strong_negative_lambda_3,sar_catalogue_pass_direction:all_ascending,lambda_star=-1.57; r20_minus_r19_f1=-0.157; r20_minus_r19_fp_rate=0.1
+strong_negative_lambda_4,joint_hydro_memory:very_far_gt10km__low,lambda_star=-1.55; r20_minus_r19_f1=-0.0188; r20_minus_r19_fp_rate=0.0122
+strong_negative_lambda_5,sar_catalogue_platform:all_sentinel_1b_candidates,lambda_star=-1.41; r20_minus_r19_f1=-0.125; r20_minus_r19_fp_rate=0.0889
+strong_negative_lambda_6,official_hydrography:missing_hydrorivers,lambda_star=-1.23; r20_minus_r19_f1=-0.0887; r20_minus_r19_fp_rate=0.0723
+strong_negative_lambda_7,joint_hydro_memory:far_2_10km__dry_or_trace,lambda_star=-1.19; r20_minus_r19_f1=-0.202; r20_minus_r19_fp_rate=0.169
+strong_negative_lambda_8,official_hydrography:far_2_10km,lambda_star=-1.09; r20_minus_r19_f1=-0.182; r20_minus_r19_fp_rate=0.167
