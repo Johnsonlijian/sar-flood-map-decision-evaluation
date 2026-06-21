@@ -40,5 +40,4 @@ The intended GitHub remote is:
 https://github.com/Johnsonlijian/sar-flood-map-decision-evaluation
 ```
 
-Repository creation and first push are human-only actions.
-
+Author metadata for repository release and DOI minting are staged in `CITATION.cff` and `.zenodo.json`. The repository has not been pushed until the GitHub remote exists and accepts the local push.

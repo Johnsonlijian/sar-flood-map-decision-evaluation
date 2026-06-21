@@ -1,0 +1,21 @@
+{
+  "title": "SAR Flood-Map Decision-Aware Evaluation",
+  "upload_type": "software",
+  "description": "Public derived tables, figures, audits, and validation scripts for a decision-aware evaluation framework for SAR flood-map skill.",
+  "creators": [
+    {
+      "name": "REN, Lijian",
+      "affiliation": "School of Civil Engineering, Inner Mongolia University of Technology",
+      "orcid": "0000-0003-1629-4368"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "SAR flood mapping",
+    "remote sensing",
+    "benchmark evaluation",
+    "decision-aware evaluation",
+    "cost-sensitive evaluation"
+  ],
+  "access_right": "open"
+}
