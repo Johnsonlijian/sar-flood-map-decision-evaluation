@@ -1,32 +1,32 @@
 checked_at_utc,path,status,detail
-2026-06-21T02:45:48.493522+00:00,README.md,pass,1969
-2026-06-21T02:45:48.493522+00:00,REPRODUCIBLE_RUNBOOK.md,pass,1309
-2026-06-21T02:45:48.493522+00:00,PUBLIC_PRIVATE_BOUNDARY.md,pass,1014
-2026-06-21T02:45:48.493522+00:00,DATASETS_AND_LINKS.csv,pass,1520; rows=7
-2026-06-21T02:45:48.493522+00:00,CITATION.cff,pass,474
-2026-06-21T02:45:48.493522+00:00,LICENSE,pass,1076
-2026-06-21T02:45:48.493522+00:00,figures/fig01_decision_framework.pdf,pass,30692
-2026-06-21T02:45:48.493522+00:00,figures/fig01_decision_framework.png,pass,143800
-2026-06-21T02:45:48.493522+00:00,figures/fig01_decision_framework.svg,pass,15587
-2026-06-21T02:45:48.493522+00:00,figures/fig02_larkana_case.pdf,pass,357677
-2026-06-21T02:45:48.493522+00:00,figures/fig02_larkana_case.png,pass,577405
-2026-06-21T02:45:48.493522+00:00,figures/fig02_larkana_case.svg,pass,489071
-2026-06-21T02:45:48.493522+00:00,figures/fig03_aggregation_event_composition.pdf,pass,30616
-2026-06-21T02:45:48.493522+00:00,figures/fig03_aggregation_event_composition.png,pass,232614
-2026-06-21T02:45:48.493522+00:00,figures/fig03_aggregation_event_composition.svg,pass,58589
-2026-06-21T02:45:48.493522+00:00,figures/fig04_cost_ratio_controls.pdf,pass,38206
-2026-06-21T02:45:48.493522+00:00,figures/fig04_cost_ratio_controls.png,pass,283690
-2026-06-21T02:45:48.493522+00:00,figures/fig04_cost_ratio_controls.svg,pass,47137
-2026-06-21T02:45:48.493522+00:00,figures/fig05_boundary_diagnostics.pdf,pass,24229
-2026-06-21T02:45:48.493522+00:00,figures/fig05_boundary_diagnostics.png,pass,172671
-2026-06-21T02:45:48.493522+00:00,figures/fig05_boundary_diagnostics.svg,pass,38988
-2026-06-21T02:45:48.493522+00:00,audit/ACTIVE_REFERENCE_REGISTRY.csv,pass,3076; rows=22
-2026-06-21T02:45:48.493522+00:00,audit/FIGURE_MANIFEST.csv,pass,672; rows=15
-2026-06-21T02:45:48.493522+00:00,audit/LARKANA_FIGURE_SOURCE_AUDIT_SANITIZED.csv,pass,979; rows=1
-2026-06-21T02:45:48.493522+00:00,results/r48_full_outcome_signal_memory_unit_table.csv,pass,5890083; rows=14206
-2026-06-21T02:45:48.493522+00:00,results/r56_kuro_local_14event_full_deep_transfer_grid_metrics.csv,pass,11774018; rows=86472
-2026-06-21T02:45:48.493522+00:00,results/r58_model_grid_metrics_with_official_controls.csv,pass,58314367; rows=86472
-2026-06-21T02:45:48.493522+00:00,results/r61_model_grid_metrics_with_terrain_controls.csv,pass,73041180; rows=86472
-2026-06-21T02:45:48.493522+00:00,results/r81_signal_memory_cost_ratio_table.csv,pass,2690; rows=12
-2026-06-21T02:45:48.493522+00:00,results/r83_active_reference_whitelist.csv,pass,3076; rows=22
-2026-06-21T02:45:48.493522+00:00,results/r83_datasets_and_links.csv,pass,1520; rows=7
+2026-06-21T03:41:31.064927+00:00,README.md,pass,1969
+2026-06-21T03:41:31.064927+00:00,REPRODUCIBLE_RUNBOOK.md,pass,1309
+2026-06-21T03:41:31.064927+00:00,PUBLIC_PRIVATE_BOUNDARY.md,pass,1014
+2026-06-21T03:41:31.064927+00:00,DATASETS_AND_LINKS.csv,pass,1520; rows=7
+2026-06-21T03:41:31.064927+00:00,CITATION.cff,pass,474
+2026-06-21T03:41:31.064927+00:00,LICENSE,pass,1076
+2026-06-21T03:41:31.064927+00:00,figures/fig01_decision_framework.pdf,pass,112002
+2026-06-21T03:41:31.064927+00:00,figures/fig01_decision_framework.png,pass,173462
+2026-06-21T03:41:31.064927+00:00,figures/fig01_decision_framework.svg,pass,19036
+2026-06-21T03:41:31.064927+00:00,figures/fig02_larkana_case.pdf,pass,357677
+2026-06-21T03:41:31.064927+00:00,figures/fig02_larkana_case.png,pass,577405
+2026-06-21T03:41:31.064927+00:00,figures/fig02_larkana_case.svg,pass,489071
+2026-06-21T03:41:31.064927+00:00,figures/fig03_aggregation_event_composition.pdf,pass,30616
+2026-06-21T03:41:31.064927+00:00,figures/fig03_aggregation_event_composition.png,pass,232614
+2026-06-21T03:41:31.064927+00:00,figures/fig03_aggregation_event_composition.svg,pass,58589
+2026-06-21T03:41:31.064927+00:00,figures/fig04_cost_ratio_controls.pdf,pass,38206
+2026-06-21T03:41:31.064927+00:00,figures/fig04_cost_ratio_controls.png,pass,283690
+2026-06-21T03:41:31.064927+00:00,figures/fig04_cost_ratio_controls.svg,pass,47137
+2026-06-21T03:41:31.064927+00:00,figures/fig05_boundary_diagnostics.pdf,pass,24229
+2026-06-21T03:41:31.064927+00:00,figures/fig05_boundary_diagnostics.png,pass,172671
+2026-06-21T03:41:31.064927+00:00,figures/fig05_boundary_diagnostics.svg,pass,38988
+2026-06-21T03:41:31.064927+00:00,audit/ACTIVE_REFERENCE_REGISTRY.csv,pass,3076; rows=22
+2026-06-21T03:41:31.064927+00:00,audit/FIGURE_MANIFEST.csv,pass,673; rows=15
+2026-06-21T03:41:31.064927+00:00,audit/LARKANA_FIGURE_SOURCE_AUDIT_SANITIZED.csv,pass,979; rows=1
+2026-06-21T03:41:31.064927+00:00,results/r48_full_outcome_signal_memory_unit_table.csv,pass,5890083; rows=14206
+2026-06-21T03:41:31.064927+00:00,results/r56_kuro_local_14event_full_deep_transfer_grid_metrics.csv,pass,11774018; rows=86472
+2026-06-21T03:41:31.064927+00:00,results/r58_model_grid_metrics_with_official_controls.csv,pass,58314367; rows=86472
+2026-06-21T03:41:31.064927+00:00,results/r61_model_grid_metrics_with_terrain_controls.csv,pass,73041180; rows=86472
+2026-06-21T03:41:31.064927+00:00,results/r81_signal_memory_cost_ratio_table.csv,pass,2690; rows=12
+2026-06-21T03:41:31.064927+00:00,results/r83_active_reference_whitelist.csv,pass,3076; rows=22
+2026-06-21T03:41:31.064927+00:00,results/r83_datasets_and_links.csv,pass,1520; rows=7
