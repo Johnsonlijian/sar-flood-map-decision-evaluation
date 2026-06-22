@@ -22,6 +22,14 @@ python scripts/validate_public_artifacts.py
 4. Confirm that `CHECKSUMS_SHA256.txt` has been created.
 5. Use `DATASETS_AND_LINKS.csv` for raw data source locations and redistribution boundaries.
 
+## Derived Support Tables
+
+The manuscript's main decision tables are derived from rights-safe CSV files in `results/`.
+
+- R90 uncertainty and threshold diagnostics are represented by `results/r90_*` and the provenance script `scripts/r90_reviewer_empirical_upgrades.py`.
+- R91 is a support-sensitivity check from three labelled AOIs in one additional Kuro event, represented by `results/r91_*` and `scripts/r91_support_sensitivity_check.py`.
+- These support files do not redistribute raw rasters or model checkpoints.
+
 ## Raw Data Boundary
 
 The following inputs are cited by link or identifier but are not redistributed here:
@@ -39,4 +47,3 @@ The repository contains only rights-safe derived tables, figures, audits, and so
 ## Manuscript Boundary
 
 Active manuscript source, cover letters, submission portal files, reviewer-response drafts, private author metadata, and internal round logs are excluded. This keeps the public repository separate from the journal submission package.
-

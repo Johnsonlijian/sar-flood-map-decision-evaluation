@@ -1,0 +1,59 @@
+{
+  "paired_grid_bootstrap": {
+    "n_bootstrap": 5000,
+    "seed": 90210,
+    "n_paired_grids": 43236,
+    "diff_mean": -0.1242147749372779,
+    "diff_ci_low": -0.12989917391865577,
+    "diff_ci_high": -0.11875875395550488,
+    "prob_aspp_gt_unet": 0.0
+  },
+  "event_wilcoxon_signed_rank": {
+    "n_nonzero": 14,
+    "w_plus": 84.0,
+    "w_minus": 21.0,
+    "p_two_sided": 0.0494384765625
+  },
+  "event_aspp_minus_unet_median": 0.13769610965872456,
+  "event_aspp_wins": 12,
+  "event_unet_wins": 2,
+  "event_ties": 0,
+  "n_event_aoi": 14,
+  "threshold_summary": [
+    {
+      "diagnostic": "thresholds_checked",
+      "value": 19,
+      "interpretation": "paired U-Net/ASPP thresholds in existing full-support sweep"
+    },
+    {
+      "diagnostic": "pooled_event_reversal_count",
+      "value": 7,
+      "interpretation": "thresholds where pooled-F1 winner differs from event-median-F1 winner"
+    },
+    {
+      "diagnostic": "pooled_event_reversal_share",
+      "value": 0.3684210526315789,
+      "interpretation": "rank-reversal share across checked paired thresholds"
+    },
+    {
+      "diagnostic": "reversal_threshold_min",
+      "value": 0.65,
+      "interpretation": "lowest threshold with pooled/event-median reversal"
+    },
+    {
+      "diagnostic": "reversal_threshold_max",
+      "value": 0.95,
+      "interpretation": "highest threshold with pooled/event-median reversal"
+    },
+    {
+      "diagnostic": "selected_threshold_pooled_winner",
+      "value": "r19",
+      "interpretation": "pooled-F1 winner at the selected operating threshold pair"
+    },
+    {
+      "diagnostic": "selected_threshold_event_median_winner",
+      "value": "r20",
+      "interpretation": "event-median-F1 winner at the selected operating threshold pair"
+    }
+  ]
+}

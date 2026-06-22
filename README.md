@@ -13,11 +13,13 @@ The package supports a decision-aware evaluation of SAR flood-map outputs. It do
 - `audit/`: figure manifest, active-reference registry, and sanitized figure-source audit.
 - `DATASETS_AND_LINKS.csv`: source dataset links and redistribution boundaries.
 - `scripts/validate_public_artifacts.py`: package integrity and row-count checker.
+- `scripts/r90_reviewer_empirical_upgrades.py`: script that generates the R90 uncertainty and threshold-diagnostic tables from derived metrics.
+- `scripts/r91_support_sensitivity_check.py`: script that summarizes the separate R91 support-sensitivity check.
 - `REPRODUCIBLE_RUNBOOK.md`: public reproduction and verification route.
 
 ## Evidence Boundary
 
-The evaluated support is restricted to locally verified derived outputs for 14 event-AOI units. Incomplete or unavailable Kuro Siwo archive batches are not counted as evaluated evidence. Raw Sentinel-1 scenes, Kuro Siwo raster tiles, official-control rasters/vectors, model checkpoints, private manuscript files, cover letters, and internal round logs are intentionally excluded.
+The primary evaluated support is restricted to locally verified derived outputs for 14 event-AOI units. The R91 files add a separate support-sensitivity check from three labelled AOIs in one additional Kuro event; they are not treated as an independent event-population expansion. Raw Sentinel-1 scenes, Kuro Siwo raster tiles, official-control rasters/vectors, model checkpoints, private manuscript files, cover letters, and internal round logs are intentionally excluded.
 
 ## Quick Check
 
@@ -40,4 +42,4 @@ The intended GitHub remote is:
 https://github.com/Johnsonlijian/sar-flood-map-decision-evaluation
 ```
 
-Author metadata for repository release and DOI minting are staged in `CITATION.cff` and `.zenodo.json`. The repository has not been pushed until the GitHub remote exists and accepts the local push.
+Author metadata for repository release and DOI minting are staged in `CITATION.cff` and `.zenodo.json`. No archive DOI is claimed by the manuscript until one is minted.

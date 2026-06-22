@@ -41,6 +41,17 @@ REQUIRED_FILES = [
     "results/r81_signal_memory_cost_ratio_table.csv",
     "results/r83_active_reference_whitelist.csv",
     "results/r83_datasets_and_links.csv",
+    "results/r90_main_decision_metrics_table.csv",
+    "results/r90_event_aoi_composition_table.csv",
+    "results/r90_threshold_robustness_summary.csv",
+    "results/r90_uncertainty_and_threshold_summary.json",
+    "results/r91_support_sensitivity_summary.csv",
+    "results/r91_batch03_new_event_metrics.csv",
+    "results/r91_batch03_new_grid_metrics.csv",
+    "results/r91_batch03_new_summary.csv",
+    "results/r91_batch03_new_threshold_sweep.csv",
+    "scripts/r90_reviewer_empirical_upgrades.py",
+    "scripts/r91_support_sensitivity_check.py",
 ]
 
 
@@ -123,4 +134,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

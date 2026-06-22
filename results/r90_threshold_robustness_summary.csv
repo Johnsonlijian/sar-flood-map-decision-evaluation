@@ -1,0 +1,8 @@
+diagnostic,value,interpretation
+thresholds_checked,19,paired U-Net/ASPP thresholds in existing full-support sweep
+pooled_event_reversal_count,7,thresholds where pooled-F1 winner differs from event-median-F1 winner
+pooled_event_reversal_share,0.3684210526315789,rank-reversal share across checked paired thresholds
+reversal_threshold_min,0.65,lowest threshold with pooled/event-median reversal
+reversal_threshold_max,0.95,highest threshold with pooled/event-median reversal
+selected_threshold_pooled_winner,r19,pooled-F1 winner at the selected operating threshold pair
+selected_threshold_event_median_winner,r20,event-median-F1 winner at the selected operating threshold pair
