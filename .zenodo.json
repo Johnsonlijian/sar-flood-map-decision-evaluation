@@ -2,7 +2,7 @@
   "title": "SAR Flood-Map Decision-Aware Evaluation",
   "upload_type": "software",
   "publication_date": "2026-06-22",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Public derived tables, figures, audits, and validation scripts for a decision-aware evaluation framework for SAR flood-map skill.",
   "creators": [
     {

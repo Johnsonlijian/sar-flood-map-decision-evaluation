@@ -231,7 +231,7 @@ def latex_main_table(df: pd.DataFrame, boot: dict[str, float | int], wilcoxon: d
         r"\begin{table*}[!t]",
         r"\centering",
         r"\footnotesize",
-        r"\caption{\textbf{Main decision metrics on the verified 14 event-AOI support.} U-Net is the false-positive-restrained decision (threshold 0.85), and ASPP is the recall-heavy decision (threshold 0.83). The pooled-F1 contrast is ASPP--U-Net; its paired-grid composition bootstrap 95\% interval is " + f"[{fmt(float(boot['diff_ci_low']), 3)}, {fmt(float(boot['diff_ci_high']), 3)}]" + r", not an event-population confidence interval. The event-F1 exact paired signed-rank diagnostic gives a two-sided p-value of " + fmt(float(wilcoxon["p_two_sided"]), 3) + r".}",
+        r"\caption{\textbf{Main decision metrics on the verified 14 event-AOI support.} U-Net is the false-positive-restrained decision (threshold 0.85), and ASPP is the recall-heavy decision (threshold 0.83). The pooled-F1 contrast is ASPP--U-Net; its paired-grid composition bootstrap 95\% interval is " + f"[{fmt(float(boot['diff_ci_low']), 3)}, {fmt(float(boot['diff_ci_high']), 3)}]" + r", not an event-population confidence interval. The event-F1 exact paired Wilcoxon signed-rank test gives a two-sided p-value of " + fmt(float(wilcoxon["p_two_sided"]), 3) + r".}",
         r"\label{tab:main_decision_metrics}",
         r"\begin{tabular}{lrrrr}",
         r"\toprule",
