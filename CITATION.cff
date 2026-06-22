@@ -2,12 +2,13 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite the accompanying manuscript."
 title: "SAR Flood-Map Decision-Aware Evaluation"
 type: software
+version: "1.0.1"
 authors:
   - family-names: "REN"
     given-names: "Lijian"
     orcid: "https://orcid.org/0000-0003-1629-4368"
     affiliation: "School of Civil Engineering, Inner Mongolia University of Technology"
 repository-code: "https://github.com/Johnsonlijian/sar-flood-map-decision-evaluation"
-date-released: "2026-06-21"
+date-released: "2026-06-22"
 license: "MIT"
 abstract: "Public derived tables, figures, audits, and validation scripts for a decision-aware evaluation framework for SAR flood-map skill."

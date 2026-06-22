@@ -4,7 +4,7 @@ This repository is the public, rights-bounded reproducibility package for the ma
 
 **Aggregation and Event Composition, Not Model Identity, Determine SAR Flood-Map Skill: A Decision-Aware Cost-Ratio Evaluation Framework**
 
-The package supports a decision-aware evaluation of SAR flood-map outputs. It does not propose a new flood segmentation architecture, and it does not redistribute raw third-party raster archives. The included assets are derived tables, final figure files, audit tables, and a validation script for the public package.
+The package supports a decision-aware evaluation of SAR flood-map outputs. It does not propose a new flood segmentation architecture, and it does not redistribute raw third-party raster archives. The included assets are derived tables, final figure files, audit tables, a public-package validator, and support-diagnostic scripts.
 
 ## What Is Included
 
@@ -34,7 +34,7 @@ The script writes:
 - `audit/VALIDATION_REPORT.csv`
 - `CHECKSUMS_SHA256.txt`
 
-## Intended Public Remote
+## Public Remote
 
 The intended GitHub remote is:
 
