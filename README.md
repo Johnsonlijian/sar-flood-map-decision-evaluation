@@ -2,7 +2,7 @@
 
 This repository is the public, rights-bounded reproducibility package for the manuscript:
 
-**Aggregation and Event Composition, Not Model Identity, Determine SAR Flood-Map Skill: A Decision-Aware Cost-Ratio Evaluation Framework**
+**Decision-Aware SAR Flood-Map Evaluation Under Event-Composition Shift**
 
 The package supports a decision-aware evaluation of SAR flood-map outputs. It does not propose a new flood segmentation architecture, and it does not redistribute raw third-party raster archives. The included assets are derived tables, final figure files, audit tables, a public-package validator, and support-diagnostic scripts.
 
