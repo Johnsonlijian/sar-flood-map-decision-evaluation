@@ -42,4 +42,4 @@ The intended GitHub remote is:
 https://github.com/Johnsonlijian/sar-flood-map-decision-evaluation
 ```
 
-Author metadata for repository release and DOI minting are staged in `CITATION.cff` and `.zenodo.json`. No archive DOI is claimed by the manuscript until one is minted.
+Author metadata for repository release and DOI minting are staged in `CITATION.cff` and `.zenodo.json`. The manuscript cites the current archived release DOI; if figures or derived outputs change, create a new GitHub/Zenodo release and update the manuscript DOI accordingly.

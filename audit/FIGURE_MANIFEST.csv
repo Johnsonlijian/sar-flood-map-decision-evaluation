@@ -1,10 +1,10 @@
 figure_file,exists,bytes
-fig01_decision_framework.pdf,True,55710
-fig01_decision_framework.png,True,198127
-fig01_decision_framework.svg,True,19031
-fig02_larkana_case.pdf,True,1782775
-fig02_larkana_case.png,True,709004
-fig02_larkana_case.svg,True,794671
+fig01_decision_framework.pdf,True,1682530
+fig01_decision_framework.png,True,390268
+fig01_decision_framework.svg,True,64485
+fig02_larkana_case.pdf,True,1782729
+fig02_larkana_case.png,True,706568
+fig02_larkana_case.svg,True,794301
 fig03_aggregation_event_composition.pdf,True,83692
 fig03_aggregation_event_composition.png,True,232614
 fig03_aggregation_event_composition.svg,True,58589
